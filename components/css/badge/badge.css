@@ -1,0 +1,25 @@
+
+.badge-container{
+    position:relative;
+    width:max-content;
+    padding:1rem;
+}
+.badge{
+    position:absolute;
+    font-size:0.6em;
+    right:20%;
+    top:18%;
+    background: red;
+    padding:.25em .4em;
+    border-radius:50%;
+    color:white;
+}
+.avatar-badge{
+    position: absolute;
+    right:25%;
+    bottom:25%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
