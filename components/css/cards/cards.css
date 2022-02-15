@@ -1,0 +1,111 @@
+:root{
+    --card-shadow:0 0 15px rgba(0,0,0,0.2);
+    --hover-color:#070a06f3;
+   
+}
+.card {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    color: var(--font-color);
+    height:auto;
+    width:18rem;
+    position: relative;
+    margin:1rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+.card-image{
+    position: relative;
+}
+.card img{
+    width:100%;
+    height:100%;
+}
+.card-like, .card-dismiss{
+    background: white;
+    padding:5px 6px;
+    border-radius:50%;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    opacity: .5;
+}
+
+.card-status{
+    text-transform: capitalize;
+    padding:5px 6px;
+    background: white;
+    border-radius: 0.25rem;
+    position:absolute;
+    top:1rem;
+    left:.5rem;
+}
+.card-header{
+    margin:1rem 1rem 0 1rem;
+}
+.card-content{
+    text-align: center;
+    padding:.5rem;
+}
+.content{
+    padding: 1rem;
+
+}
+.dis-price{
+    font-weight:600;
+    font-size: 1.2rem;
+    margin-right:5px;
+
+}
+.real-price{
+ text-decoration:line-through;
+ color:grey;
+}
+.card-btn:hover{
+    background: var(--hover-color);
+}
+
+/* Card with text only */
+.text-only{
+    height:auto;
+}
+.text-only .card-image{
+    display:none;
+}
+
+/* Horizontal cards */
+.card-hori{
+    width:30rem;
+    height:auto;
+    flex-direction:row;
+    flex-wrap:wrap;
+    /* justify-content: space-evenly; */
+}
+.card-hori .card-content{
+   width:50%;
+}
+.card-hori .card-image{
+    width:50%;
+}
+.card-footer{
+    justify-self:end;
+    margin:.5rem;
+}
+/* Card with text-overlay */
+.card-overlay{
+    height:auto;
+    cursor:pointer;
+}
+.card-content-overlay {
+    color:var(--font-color-inverted);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    width:100%;
+    padding-top:60px;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+}
