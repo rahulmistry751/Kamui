@@ -83,7 +83,6 @@
     height:auto;
     flex-direction:row;
     flex-wrap:wrap;
-    /* justify-content: space-evenly; */
 }
 .card-hori .card-content{
    width:50%;
