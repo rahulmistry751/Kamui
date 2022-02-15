@@ -9,7 +9,7 @@
 }
 /* || Round image */
 .image-round{
-    width:128px;
-    height:128px;
+    width:8rem;
+    height:8rem;
     border-radius:50%;
 }
