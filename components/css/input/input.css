@@ -1,13 +1,13 @@
 .input-container{
     width:20%;
-    min-width:300px;
+    min-width:18.75rem;
   }
 .input-container *{
-    margin:12px;
+    margin:.75rem;
   }
 .input, .textarea{
     width:100%;
-    padding:.25rem 12px;
+    padding:.25rem .75rem;
     border-radius:.3rem;
     height:1.8rem;
     outline:none;
@@ -15,16 +15,16 @@
     
   }
 .input:hover,.textarea:hover{
-    border:1px solid #D1D5DB;
+    border:1px solid var(--gray-light);
     transition:.5s;
   }
 .input:focus, .textarea:focus{
     border:none;
-    box-shadow:0px 0px 12px #D1D5DB;
+    box-shadow:0px 0px 12px var(--gray-light);
     transition:.5s
   }
 .input-success{
-    border-bottom:2px solid var(--success);
+    border-bottom:2px solid var(--gray-light);
   }
 .input-error{
     border-bottom:2px solid var(--error);
