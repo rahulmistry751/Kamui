@@ -19,14 +19,15 @@
     font-size: 1.5rem;
 }
 .button-full{
+    color:var(--font-color-invert);
     width:100%;
 }
 /* || Primary button hover */
 .button:hover{
-    background:#34D399;
+    background:var(--primary-moderate);
 }
 .button:disabled{
-    background: #D1FAE5;
+    background: var(--primary-light);
     cursor:not-allowed;
 }
 
@@ -34,14 +35,14 @@
 .button-outlined{
     background-color: transparent;
     color:var(--primary);
-    border:var(--primary) 1.8px solid;
+    border:var(--primary) .12rem solid;
 }
 .button-outlined:hover{
-    border:var(--primary-dark) 2px solid;
+    border:var(--primary-dark) .15rem solid;
     background-color: transparent;
 }
 .button-outlined:disabled{
-    border: #d1d5db 1.8px solid;
+    border: #d1d5db .12rem solid;
     background:transparent;
     color:#6B7280;
     cursor:not-allowed;
@@ -49,11 +50,11 @@
 }
 /* || Link button */
 .button-link{
-    background: #6366F1
+    background: var(--secondary);
 }
 
 .button-link:hover{
-    background-color: #818CF8;
+    background-color:var(--secondary-moderate);
 }
 /* || Floating action button */
 .button-fab{
