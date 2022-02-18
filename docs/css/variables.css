@@ -1,0 +1,33 @@
+:root{
+    --primary:#10B981;
+    --primary-invert:#fff;
+    --primary-dark:#00947e;
+    --primary-moderate:#34D399;
+    --primary-light: #D1FAE5;
+    --secondary:#6366F1;
+    --secondry-dark:#4338CA;
+    --secondary-moderate:#818CF8;
+    --secondary-light:#A5B4FC;
+    --success: #48c78e;
+    --success-invert: #fff;
+    --success-light: #effaf5;
+    --success-dark: #257953;
+    --error: #f14668;
+    --error-invert: #fff;
+    --error-light: #feecf0;
+    --error-dark: #cc0f35;
+    --warning: #FBBF24;
+    --warning-invert: rgba(0, 0, 0, 0.7);
+    --warning-light: #fffaeb;
+    --warning-dark: #946c00;
+    --font-color:#070A06;
+    --font-light:#111827;
+    --font-color-invert:white;
+    --background:#F9FAFB;
+    --background-light:white;
+    --gray:#6B7280;
+    --gray-dark:#374151;
+    --gray-moderate:#9CA3AF;
+    --gray-light:#D1D5DB;
+    --font-style:'Nunito Sans', sans-serif;
+}
