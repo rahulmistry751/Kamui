@@ -1,0 +1,15 @@
+.image-container{
+    height:40%;
+    width:30%;
+}
+.image{
+    object-fit: fill;
+    height:100%;
+    width:100%;
+}
+/* || Round image */
+.image-round{
+    width:8rem;
+    height:8rem;
+    border-radius:50%;
+}
