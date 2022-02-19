@@ -1,0 +1,138 @@
+/* Typography */
+    /* Headings and text sizes */
+        /* Muliple of 8 */
+.h1{
+    font-size:3rem;
+}
+.h2{
+    font-size:2rem;
+}
+.h3{
+    font-size:1.5rem;
+}
+.h4{
+    font-size:1rem;
+}
+.h5{
+    font-size:.5rem;
+}
+    /* font-size */
+        /* Multiple of 4 */
+.fs-28{
+    font-size:1.75rem;
+}
+.fs-24{
+    font-size:1.5rem;
+}
+.fs-20{
+    font-size:1.25rem;
+}
+.fs-16{
+    font-size:1rem
+}
+.fs-12{
+    font-size:.75rem;
+}
+    /* font-weight */
+.fw-300{
+    font-weight:300;
+}
+.fw-400{
+    font-weight:400;
+}
+.fw-600{
+    font-weight:600;
+}
+.fw-700{
+    font-weight:700;
+}
+.fw-900{
+    font-weight:900;
+}
+    /* line height */
+.lh-64{
+    line-height:3rem;
+}
+.lh-40{
+    line-height:2.5rem;
+}
+.lh-32{
+    line-height:2rem;
+}
+.lh-24{
+    line-height:1.5rem;
+}
+.lh-16{
+    line-height:1rem;
+}
+/* Gray text */
+.gray{
+    color:var(--gray);
+}
+.gray-light{
+    color:var(--gray-light);
+}
+/* text align */
+.txt-c{
+    text-align:center;
+}
+.txt-l{
+    text-align:left;
+}
+.txt-r{
+    text-align:right;
+}
+/* Border radius */
+.brd-5{
+    border-radius:.3rem;
+}
+.brd-10{
+    border-radius:1.6rem;
+}
+.brd-15{
+    border-radius:.9rem;
+}
+.brd-999{
+    border-radius:50%;
+}
+/* text decoration */
+.td-none{
+    text-decoration: none;
+}
+.td-dotted{
+    text-decoration: dotted;
+}
+/* Flexbox */
+.fx-c{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fy-c{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Margin */
+.mg-0{
+    margin:0;
+}
+.mg-4{
+    margin:0.25rem;
+}
+.mg-8{
+    margin:.5rem;
+}
+.mg-12{
+    margin:.75rem;
+}
+.mg-16{
+    margin:1rem;
+}
+.mgt-16{
+    margin-top:1rem;
+}
+.mgb-16{
+    margin-bottom:1rem;
+}
