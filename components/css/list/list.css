@@ -1,0 +1,12 @@
+.list-item{
+    padding:.8rem;    
+}
+.item-link{
+    color:var(--font-light);
+    padding:.5rem;
+    border-radius:.3rem;
+}
+.item-link:hover{
+    color:var(--primary);
+    background: var(--background-light);
+}
