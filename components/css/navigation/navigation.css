@@ -1,0 +1,23 @@
+.navbar-item a,.navbar-brand{
+    text-decoration: none;
+    color:var(--font-color);
+}
+.navbar{
+    text-decoration: none;
+    padding:1rem 1rem;
+    z-index:30;
+    min-height:3.25rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.navbar-menu{
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    gap:1.5rem;
+}
+.navbar-toggler{
+    display:none;
+}
