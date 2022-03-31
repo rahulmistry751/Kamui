@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 @import url("../components/css/alert/alert.css");
 @import url("../components/css/avatar/avatar.css");
 @import url("../components/css/badge/badge.css");
@@ -7,19 +7,21 @@
 @import url("../components/css/image/image.css");
 @import url("../components/css/input/input.css");
 @import url("../components/css/list/list.css");
+@import url("../components/css/modal/modal.css");
+@import url("../components/css/grid/grid.css");
 @import url("../components/css/utility/utility.css");
 @import url("../components/css/navigation/navigation.css");
 @import url("reset.css");
 
-.red{
-    color:#EF4444;
-    background:#EF4444;
+.red {
+  color: #ef4444;
+  background: #ef4444;
 }
-.green{
-    color:#10B981;
-    background:#10B981;
+.green {
+  color: #10b981;
+  background: #10b981;
 }
-.grey{
-    color:#6B7280;
-    background:#6B7280;
+.grey {
+  color: #6b7280;
+  background: #6b7280;
 }
