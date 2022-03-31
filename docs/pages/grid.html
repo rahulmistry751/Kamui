@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="../../shared/components.css" />
     <link rel="stylesheet" href="../css/docs.css" />
-    <title>Image | Kamui</title>
+    <title>Grid | Kamui</title>
   </head>
   <body>
     <div class="container">
@@ -65,7 +65,9 @@
               <li class="list-item">
                 <a href="./cards.html" class="item-link">Cards</a>
               </li>
-              <li class="list-item"><a href="#" class="item-link">Image</a></li>
+              <li class="list-item">
+                <a href="./image.html" class="item-link">Image</a>
+              </li>
               <li class="list-item">
                 <a href="./input.html" class="item-link">Input</a>
               </li>
@@ -76,7 +78,10 @@
                 <a href="./modal.html" class="item-link">Modal</a>
               </li>
               <li class="list-item">
-                <a href="./grid.html" class="item-link">Grid</a>
+                <a href="#" class="item-link">Grid</a>
+              </li>
+              <li class="list-item">
+                <a href="./rating.html" class="item-link">Rating</a>
               </li>
               <li class="list-item">
                 <a href="./navigation.html" class="item-link">Navigation</a>
@@ -88,43 +93,46 @@
           </div>
         </div>
         <div class="main-content">
-          <h3 class="content-title h3 fw-900">Image</h3>
+          <h3 class="content-title h3 fw-900">Grid</h3>
           <p class="para lh-24">
-            Responsive images are adaptable depending on the screen sizes,
-            resolution. In this component, image is enclosed inside a container.
-            The width of the image depends on the container in which it is
-            enclosed.
+            Grid is used to layout the elements vertically and horizontally.
           </p>
           <hr />
-          <h3 class="content-title h3 fw-700">Responsive Image</h3>
+          <h3 class="content-title h3 fw-700">Grids</h3>
+          <p class="para">
+            <code>grid-cols-n</code>: Creates a grid with n equally sized
+            columns
+          </p>
+          <p class="para">Two columns grid</p>
           <div class="example-container fx-c">
-            <!-- Responsive image -->
-            <div class="image-container">
-              <img src="https://picsum.photos/200/300" class="image" alt="" />
+            <div class="grid-container grid-cols-2">
+              <div class="grid">child 1</div>
+              <div class="grid">child 2</div>
+              <div class="grid">child 3</div>
+              <div class="grid">child 4</div>
             </div>
           </div>
           <div class="code-container">
             <iframe
               class="carbon-code"
-              src="https://carbon.now.sh/embed/0C1Zn7OP7glpLZCYkb84"
+              src="https://carbon.now.sh/embed/wP9OHaT3Z6jYuPHhTIky"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
           </div>
-          <h3 class="content-title h3 fw-700">Round image</h3>
+          <p class="para">Three columns grid</p>
           <div class="example-container">
-            <div class="image-container">
-              <img
-                src="https://picsum.photos/200/300"
-                class="image image-round"
-                alt=""
-              />
+            <div class="grid-container grid-cols-3">
+              <div class="grid">child 1</div>
+              <div class="grid">child 2</div>
+              <div class="grid">child 3</div>
+              <div class="grid">child 4</div>
             </div>
           </div>
           <div class="code-container">
             <iframe
               class="carbon-code"
-              src="https://carbon.now.sh/embed/FoghZTM3Ttf5g6UQ4vdg"
+              src="https://carbon.now.sh/embed/XGmBpTrIh3EjVBFpxJd2"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
