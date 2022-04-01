@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <link
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../shared/components.css" />
     <link rel="stylesheet" href="../css/docs.css" />
-    <title>Alert | Kamui</title>
+    <title>Rating | Kamui</title>
   </head>
   <body>
     <div class="container">
@@ -26,7 +28,10 @@
             <a href="../index.html" class="item-link">Docs</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="item-link"
+            <a
+              href="https://github.com/rahulmistry751/Kamui"
+              target="_blank"
+              class="item-link"
               ><i class="fab fa-github fa-lg"></i
             ></a>
           </li>
@@ -35,9 +40,7 @@
       <main class="main-container">
         <div class="side-bar">
           <div class="list-container">
-            <a href="#" class="list-title fw-600 fs-20 mgb-16"
-              >Getting Started</a
-            >
+            <h3 class="list-title fw-600 fs-20 mgb-16">Getting Started</h3>
             <ul class="list">
               <li class="list-item">
                 <a href="../index.html" class="item-link">Introduction</a>
@@ -45,9 +48,11 @@
             </ul>
           </div>
           <div class="list-container">
-            <a href="#" class="list-title fw-600 fs-20">Components</a>
+            <h3 class="list-title fw-600 fs-20 mgb-16">Components</h3>
             <ul class="list">
-              <li class="list-item"><a href="#" class="item-link">Alert</a></li>
+              <li class="list-item">
+                <a href="./alert.html" class="item-link">Alert</a>
+              </li>
               <li class="list-item">
                 <a href="./avatar.html" class="item-link">Avatar</a>
               </li>
@@ -76,49 +81,52 @@
                 <a href="./grid.html" class="item-link">Grid</a>
               </li>
               <li class="list-item">
-                <a href="./pages/navigation.html" class="item-link"
-                  >Navigation</a
-                >
+                <a href="./navigation.html" class="item-link">Navigation</a>
               </li>
               <li class="list-item">
-                <a href="./rating.html" class="item-link">Rating</a>
+                <a href="#" class="item-link">Rating</a>
               </li>
               <li class="list-item">
-                <a href="./pages/utility.html" class="item-link">Utility</a>
+                <a href="./toast.html" class="item-link">Toast</a>
+              </li>
+              <li class="list-item">
+                <a href="./utility.html" class="item-link">Utility</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="main-content">
-          <h3 class="content-title h3 fw-900">Alerts</h3>
+          <h3 class="content-title h3 fw-900">Rating</h3>
           <p class="para lh-24">
-            Alert is used to show the users impotant information related to
-            their current activity.
+            Rating is used to convey the insights of others's opinion and
+            experince.
           </p>
           <hr />
-          <h3 class="content-title h3 fw-700">Simple alerts</h3>
-          <div class="example-container">
-            <!-- This is a primary alert -->
-            <div class="alert alert-primary mg-16">
-              This is primary—check it out!
+          <h3 class="content-title h3 fw-700">Rating stars</h3>
+          <div class="example-container fy-c">
+            <div class="rating mgb-16">
+              <i class="fas fa-star rated"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <!-- This is a success alert-->
-            <div class="alert alert-success mg-16">
-              A success alert—check it out!
+            <div class="rating mgb-16">
+              <i class="fas fa-star rated"></i>
+              <i class="fas fa-star rated"></i>
+              <i class="fas fa-star rated"></i>
+              <i class="fas fa-star-half-alt rated"></i>
+              <i class="fas fa-star"></i>
             </div>
-            <!-- This is a error alert -->
-            <div class="alert alert-error mg-16">
-              A danger alert—check it out
-            </div>
-            <!-- This is a warning alert -->
-            <div class="alert alert-warning mg-16">
-              A warning alert—check it out!
+            <div class="rating">
+              <i class="fas fa-star rated"></i>
+              4.5
             </div>
           </div>
           <div class="code-container">
             <iframe
               class="carbon-code"
-              src="https://carbon.now.sh/embed/pYbKVBQ0ApCs9PdPWGm8"
+              src="https://carbon.now.sh/embed/7dldqFHD9ytRlZbCLmlz"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
